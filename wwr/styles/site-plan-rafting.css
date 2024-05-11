@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Indie+Flower&display=swap');
 
 body{
-    font-family: var(--'Cormorant Garamond', sans-serif);
+    font-family: var(--'Cormorant Garamond', 'serif');
     max-width: 960px;
     padding: 20px;
 }
@@ -28,7 +28,7 @@ h1, h2,h3,h4, h5, h6{
 }
 header{
     padding: 20px;
-    background-color: var(--#A3CBD8)
+    background-color: var(--#A3CBD8);
 }
 p{
     padding: 25px;
