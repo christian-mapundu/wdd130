@@ -8,7 +8,7 @@ body{
 h1{
     font-family: Indie Flower;
 }
-.root{
+:root{
     --primary-color: #EFF6E9;
     --secondary-color: #BAA5FF;
     --accent1-color: #BD897E;
@@ -20,9 +20,9 @@ h1{
     --nav-background-color: #E3Dfff;
     --nav-link-color: #D3C0CD;
     --nav-hover-link-color: #B19994;
-    --nav--hover-background-color: #D4E6B5;
+    --nav-hover-background-color: #D4E6B5;
 }
-h1, h2,h3,h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -41,8 +41,12 @@ nav{
 nav a {
     display: block;
     color: var(--nav-link-color);
-    text-decoration:none;
+    text-decoration: none;
     padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
