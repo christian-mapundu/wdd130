@@ -17,8 +17,8 @@ h1{
     --heading-font: 'Cormorant Garamond', serif;
     --paragraph-font: 'Indie Flower', serif;
 
-    --nav-background-color: #E3Dfff;
-    --nav-link-color: #D3C0CD;
+    --nav-background-color: #e3dfffd8;
+    --nav-link-color: #5d1245;
     --nav-hover-link-color: #B19994;
     --nav-hover-background-color: #D4E6B5;
 }
