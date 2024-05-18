@@ -32,10 +32,8 @@ aside {
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
     padding: 15px;;
     background-color: transparent;
-    color: 0;
 }
 aside img{
-    position: relative;
     top: 4px;
     left: px;
     width: 200px;
@@ -53,4 +51,9 @@ footer {
     padding: 1rem;
     background-color: rgb(255, 240, 127);
     color: purple;
+}
+aside h2{
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
