@@ -75,3 +75,6 @@ article{
 article img{   
     float: right;
 }
+footer p{
+    font-style: italic;
+}
