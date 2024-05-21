@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Shadows+Into+Light&display=swap');
-html{
-    width: 100%;
-}
+
 :root{
     --primary-color: #FCEC52;
     --secondary-color: #4DAA57;
@@ -17,11 +15,18 @@ html{
     --nav-hover-link-color: #B19994;
     --nav-hover-background-color: #D4E6B5;
 }
-
+body{
+    width: 960px;
+    padding: 10px;
+    margin: 5px;
+    border: 5px;
+    background-color: #d2ee1f;
+}
 h1{
     font-family: 'shadows into light', cursive;
     background-color: #FCEC52;
     color: #5d1245;
+    position: absolute;
 }
 
 p{
@@ -54,11 +59,19 @@ footer{
     background-color: #4DAA57;
 }
 .hero{
-    position: ;
+    position: relative;
     display:grid;
     background-color: #d2ee1f;
 }
 .hero img{
-    display: inline-block;
-    position: ;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article{
+    position: relative;
+    background-color: black;
+}
+article img{   
+    float: right;
 }
