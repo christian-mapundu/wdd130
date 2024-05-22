@@ -69,11 +69,16 @@ footer{
     height: auto;
 }
 article{
-    position: relative;
-    background-color: black;
+    position: absolute;
+    top: 100px;
+    background-color: rgb(15, 13, 13);
 }
-article img{   
+article img{
     float: right;
+}
+.hero article img{   
+    float: right;
+    width: 200px;
 }
 footer p{
     font-style: italic;
