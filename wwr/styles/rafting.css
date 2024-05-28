@@ -72,7 +72,7 @@ nav{
 }
 section{
     float: right;
-    /* display: grid; */
+    /* display: ; */
 }
 
 figcaption{
@@ -82,9 +82,7 @@ figcaption{
     font: italic smaller sans-sarif;
     background-color: #222;
 }
-.history{
-    display: grid;
-}
+
 footer{
     display: flex;
     float: right;
