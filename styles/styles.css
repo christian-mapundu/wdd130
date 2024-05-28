@@ -7,7 +7,9 @@ body{
     width: 840px;
 }
 h1{
-    border-bottom: #000;
+    border-bottom: 1px solid #ccc000;
+    /* padding: 10px; */
+    padding-bottom: 10px;
 }
 nav {
     background-color: rgb(58, 129, 209);
@@ -33,15 +35,16 @@ main img {
     height: auto;
     border: 1px;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(107, 124, 131);
 }
 p {
     padding: 0px;
+    font-size: large;
 }
 aside {
     width: 20em;
     margin: 1rem;
-    position: relative
+    position: relative;
     /* border: 1px solid rgba(0, 0, 0, 0.2); 1️⃣ */
     /* padding: 15px;; */ 
 }
@@ -61,7 +64,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: rgb(172, 177, 182);
+    background-color: rgb(216, 216, 218);
     color: black;
 }
 aside h2{
