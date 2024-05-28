@@ -28,13 +28,26 @@ h1{
     color: #5d1245;
     position: absolute;
 }
-
+header{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 120px 1fr 2fr;
+    max-width: 1000px;
+    border-bottom: #D4E6B5;
+}
+header img{
+    margin: 0 0.25rem 0 1rem;
+    width: 100px;
+}
 p{
     float: right;
     text-decoration-color: #4DAA57;
     font-size: large;
     font-family: 'Shadows Into Light', sans-serif;
-    color: purple;
+    color: rgb(32, 19, 32);
+}
+article p{
+    color: white;
 }
 h2{
     position: relative;
@@ -43,6 +56,7 @@ h2{
     margin: 10px
 }
 nav{
+    display: flex;
     font-family: 'Concert One', cursive;
     display: block;
     text-align: center;
@@ -51,6 +65,11 @@ nav{
 }
 section{
     float: right;
+    display: grid;
+    grid-template-columns: auto;
+}
+.history{
+    display: grid;
 }
 footer{
     float: right;
@@ -82,4 +101,7 @@ article img{
 }
 footer p{
     font-style: italic;
+}
+.sociallinks{
+    justify-content: right;
 }
