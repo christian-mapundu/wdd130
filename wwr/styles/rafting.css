@@ -40,11 +40,11 @@ header img{
     width: 100px;
 }
 p{
-    float: right;
     text-decoration-color: #4DAA57;
     font-size: large;
     font-family: 'Shadows Into Light', sans-serif;
     color: rgb(32, 19, 32);
+    padding: 10px;
 }
 article p{
     color: white;
@@ -52,15 +52,11 @@ article p{
 article h2{
     color: white;
 }
-.heading{
-    display: flex;
-    justify-content: center;
-}
+
 h2{
     position: relative;
     font-family: 'Consert One', cursive;
-    padding: 45px;
-    margin: 10px
+    text-align: center;
 }
 nav{
     display: flex;
@@ -70,11 +66,19 @@ nav{
     color: yellow;
     background-color: yellow;
 }
-section{
-    float: right;
-    /* display: ; */
+section div{
+    display: flex;
+    width: 960px;
+    flex-wrap: nowrap;
+}
+figure{
+    padding: 2px;
+    margin: 2px;
 }
 
+figure img{
+    width: 200px;
+}
 figcaption{
     padding: 5px;
     text-align: center;
@@ -119,4 +123,7 @@ footer p{
 }
 .sociallinks{
     justify-content: right;
+}
+a {
+    text-decoration: none;
 }
