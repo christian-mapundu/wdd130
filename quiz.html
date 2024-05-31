@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Questions</title>
+    <meta name="author" content="Christian Tawanda Mapundu">
+    <meta name="description" content="WDD | Quiz | Christian Tawanda Mapundu ">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Web Front End Mock Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Web development</legend>
+
+                <div class="quiz1">
+                    <label for="q1">1. What is your favourite front end language, CSS or HTML?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="quiz2">
+                    <label for="q2">2. What is the best form Element to use for adding Multiple lines?</label>
+                    <textarea name="q2" id="q2" rows="2" placeholder="input, label, button, submit, etc"></textarea>
+                </div>
+                <div class="quiz3">
+                    <label for="q3">3. Which primary color do you love to use for styling your document?</label>
+                    <select name="q1" id="q3">
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                        <option value="blue">Blue</option>
+                        <option value="gray">Gray</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="q4">4. Enter Number of weeks the Block took to learn Web fundamentals.</label>
+                    <input type="number" id="q4" name="q4" value="0" min="0" max="14">
+                </div>
+                <button type="submit">Submit Quiz</button>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
