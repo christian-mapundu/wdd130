@@ -92,7 +92,7 @@ footer{
     float: right;
     padding: 0%;
     text-align: center;
-    background-color: #4DAA57;
+    background-color: #44ddad;
     gap: 200px;
 }
 .hero{
@@ -119,6 +119,7 @@ article img{
 }
 footer p{
     font-style: italic;
+    color: solid black;
     text-align: center;
 }
 .sociallinks{
@@ -133,12 +134,9 @@ a {
     justify-content: space-evenly;
 }
 
-iframe{
-    resize: 200px;
-}
-
 .happy_employees{
     display: flex;
+    justify-content: space-around;
 }
 
 form{
