@@ -40,10 +40,8 @@ header img{
     width: 100px;
 }
 p{
-    text-decoration-color: #4DAA57;
     font-size: large;
     font-family: 'Shadows Into Light', sans-serif;
-    color: rgb(32, 19, 32);
     padding: 10px;
 }
 article p{
@@ -63,7 +61,7 @@ nav{
     font-family: 'Concert One', cursive;
     display: block;
     text-align: center;
-    color: yellow;
+    /* color: yellow; */
     background-color: yellow;
 }
 section div{
