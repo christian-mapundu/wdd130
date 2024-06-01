@@ -23,7 +23,7 @@ blockquote {
 
 cite {
 	display: block;
-    top border: 1px dotted #fff;
+    border-top: 1px dotted #fff;
     padding-top: 3px;
     text-align: right;
     font-size: smaller;
