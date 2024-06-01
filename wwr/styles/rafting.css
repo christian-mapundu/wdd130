@@ -121,6 +121,7 @@ footer p{
 }
 .sociallinks{
     justify-content: right;
+    float: right;
 }
 a {
     text-decoration: none;
