@@ -127,3 +127,41 @@ footer p{
 a {
     text-decoration: none;
 }
+
+.contact-infor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+iframe{
+    resize: 200px;
+}
+
+.happy_employees{
+    display: flex;
+}
+
+form{
+    display: grid;
+    padding: 1.0rem;
+    width: 850px;
+}
+label{
+    padding: .5rem;
+    margin: 5px;
+}
+
+button{
+    background-color: rgb(82, 82, 227);
+    height: 50px;
+    color: white;
+}
+button:hover{
+    /* color: tomato; */
+    background-color: #5d1245;
+    height: 50px;
+}
+
+textarea{
+    width: 400px;
+}
