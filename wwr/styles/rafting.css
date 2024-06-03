@@ -223,4 +223,8 @@ table {
   tfoot td {
     font-weight: bold;
   }
-  
+.home h2{
+    opacity: .4;
+    color: rgb(123, 58, 234);
+    position: relative;
+}
