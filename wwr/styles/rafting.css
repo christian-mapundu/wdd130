@@ -158,6 +158,7 @@ button{
     background-color: rgb(82, 82, 227);
     height: 50px;
     color: white;
+    border-bottom: #695958;
 }
 button:hover{
     /* color: tomato; */
@@ -227,4 +228,11 @@ table {
     opacity: .4;
     color: rgb(123, 58, 234);
     position: relative;
+}
+.home2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.home2 img{
+    width: 300px;
 }
