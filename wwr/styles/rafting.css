@@ -56,10 +56,18 @@ h2{
     font-family: 'Consert One', cursive;
     text-align: center;
 }
-nav{
+.header{
     display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+.header:hover{
+    background-color: #98DFEA;
+}
+nav{
     font-family: 'Concert One', cursive;
     display: block;
+    /* width: 800px; */
     text-align: center;
     background-color: yellow;
 }
@@ -174,3 +182,46 @@ textarea{
     text-align: center;
     align-items: center;
 }
+table {
+    border-collapse: collapse;
+    padding: 50x;
+    width: 900px;
+    border: 2px solid rgb(245, 112, 112);
+    font-family: Arial, Helvetica;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(243, 176, 176);
+    padding: 10px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: center;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
