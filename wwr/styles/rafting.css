@@ -139,6 +139,7 @@ a {
     justify-content: space-evenly;
     width: 960px;
     padding: 1rem;
+    border-color: #5d1245;
 }
 .history img{
     width: 200px;
