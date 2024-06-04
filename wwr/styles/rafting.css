@@ -134,7 +134,15 @@ footer p{
 a {
     text-decoration: none;
 }
-
+.history{
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    padding: 1rem;
+}
+.history img{
+    width: 200px;
+}
 .contact-infor{
     display: flex;
     justify-content: space-evenly;
