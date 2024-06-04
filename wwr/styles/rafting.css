@@ -148,7 +148,11 @@ a {
     display: flex;
     justify-content: space-evenly;
 }
-
+.link{
+    background-color: #fff;
+    width: 140px;
+    padding: 0.5rem;
+}
 .happy_employees{
     display: flex;
     justify-content: space-around;
