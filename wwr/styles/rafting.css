@@ -79,7 +79,6 @@ figure{
     padding: 2px;
     margin: 2px;
 }
-
 figure img{
     width: 200px;
 }
@@ -90,7 +89,6 @@ figcaption{
     font: italic smaller sans-sarif;
     background-color: #222;
 }
-
 footer{
     display: flex;
     float: right;
