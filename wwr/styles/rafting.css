@@ -249,3 +249,8 @@ table {
 Section h2{
     background-color: var(--nav-background-color);
 }
+.call1{
+    padding: 4px;
+    background-color: #fff;
+    width: 100px;
+}
