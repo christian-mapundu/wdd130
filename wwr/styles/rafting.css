@@ -246,3 +246,6 @@ table {
 .home2 img{
     width: 300px;
 }
+Section h2{
+    background-color: var(--nav-background-color);
+}
